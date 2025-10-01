@@ -1,0 +1,59 @@
+# Release drafter configuration https://github.com/release-drafter/release-drafter#configuration
+# Emojis were chosen to match the https://gitmoji.carloscuesta.me/
+
+name-template: "v$NEXT_PATCH_VERSION"
+tag-template: "v$NEXT_PATCH_VERSION"
+
+categories:
+  - title: ":rocket: Features"
+    labels: [enhancement, feature]
+  - title: ":wrench: Fixes & Refactoring"
+    labels: [bug, refactoring, bugfix, fix]
+  - title: ":package: Build System & CI/CD"
+    labels: [build, ci, testing]
+  - title: ":boom: Breaking Changes"
+    labels: [breaking]
+  - title: ":pencil: Documentation"
+    labels: [documentation]
+  - title: ":arrow_up: Dependencies updates"
+    labels: [dependencies]
+
+template: |
+  ## :memo: What’s Changed
+
+  $CHANGES
+
+  ## :busts_in_silhouette: List of contributors
+
+  $CONTRIBUTORS
+
+  ## :motor_boat: Docker Images
+
+  Available on Docker Hub:
+  https://hub.docker.com/r/pglombardo/pwpush
+
+  ## :running_man: Run This Version
+
+  → Setup a DNS record to point to your server (e.g. `pwpush.example.com`) and run:
+
+  ```sh
+  docker run -d -p "80:80" -p "443:443" --env TLS_DOMAIN=pwpush.example.com pglombardo/pwpush:latest`
+  ```
+
+  and browse to `https://pwpush.example.com`.
+
+  _or alternatively_
+
+  → Use one of our [production ready Docker Compose files](https://docs.pwpush.com/docs/installation/#docker-compose) with persistent databases.
+
+  ## :link: Useful Links
+
+  * [Documentation](https://docs.pwpush.com)
+  * [Docker Hub](https://hub.docker.com/r/pglombardo/pwpush)
+  * [GitHub](https://github.com/pglombardo/PasswordPusher)
+  * [pwpush.com](https://pwpush.com)
+  * [X](https://twitter.com/pwpush)
+  * [Facebook](https://www.facebook.com/pwpush)
+  * [Reddit](https://reddit.com/r/pwpush)
+  * [Newsletter](https://buttondown.email/pwpush)
+  * [Apnotic](https://www.apnotic.com)

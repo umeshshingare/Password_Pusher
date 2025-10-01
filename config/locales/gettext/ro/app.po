@@ -1,0 +1,1575 @@
+# Romanian translations for pwpush package.
+# Copyright (C) 2025 pwpush
+# This file is distributed under the same license as the pwpush package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pwpush 1.0\n"
+"Report-Msgid-Bugs-To: contact@translation.io\n"
+"POT-Creation-Date: 2025-09-12 10:48+0200\n"
+"PO-Revision-Date: 2025-09-12 10:48+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1)?0:((n==0||n%100>=2&&n%100<=19)?1:2);\n"
+"\n"
+
+#: ../../../app/views/application/_secret_url_bar.html.erb:14
+msgid "Secret Link Language"
+msgstr "Limba secretă de legătură"
+
+#: ../../../app/views/application/_secret_url_bar.html.erb:38
+#: ../../../app/views/pages/generate_key.html.erb:26
+#: ../../../app/views/pages/generate_key.html.erb:39
+#: ../../../app/views/shared/_copy_button.html.erb:2
+msgid "Copy to Clipboard"
+msgstr "Copiere în clipboard"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:8
+#: ../../../app/views/devise/mailer/email_changed.html.erb:8
+#: ../../../app/views/devise/mailer/password_change.html.erb:8
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:8
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:8
+#: ../../../app/views/layouts/application.html.erb:8
+#: ../../../app/views/layouts/bare.html.erb:8
+#: ../../../app/views/layouts/login.html.erb:8
+#: ../../../app/views/layouts/naked.html.erb:8
+msgid ""
+"Password Pusher is an application to securely send passwords over the web. Lin"
+"ks to passwords expire after a certain number of views and/or time has passed."
+msgstr ""
+"Password Pusher este o aplicație care permite trimiterea în siguranță a parole"
+"lor pe internet. Legăturile către parole expiră după un anumit număr de vizual"
+"izări și/sau după ce a trecut un anumit interval de timp."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:19
+msgid "Confirm your new account"
+msgstr "Confirmați noul dvs. cont"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:20
+msgid ""
+"Your account has been created but you must confirm that you own this email add"
+"ress."
+msgstr ""
+"Contul dvs. a fost creat, dar trebuie să confirmați că sunteți proprietarul ac"
+"estei adrese de e-mail."
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:23
+msgid "You can confirm your account email by"
+msgstr "Puteți confirma e-mailul contului dvs. prin"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:24
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:22
+msgid "by clicking this link"
+msgstr "făcând clic pe acest link"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:25
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:23
+msgid "or by copying and pasting the following URL into your browser:"
+msgstr "sau copiind și lipind următoarea adresă URL în browserul dumneavoastră:"
+
+#: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:32
+msgid "If you didn't create an account, no action is required."
+msgstr "Dacă nu v-ați creat un cont, nu este necesară nicio acțiune."
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:19
+msgid "Your email is being changed"
+msgstr "E-mailul dvs. este schimbat"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:21
+msgid "We're contacting you to notify you that your email at"
+msgstr "Vă contactăm pentru a vă anunța că e-mailul dvs. de la"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:25
+msgid "is being changed to %s"
+msgstr "se schimbă în %s"
+
+#: ../../../app/views/devise/mailer/email_changed.html.erb:27
+msgid "has been changed to %s"
+msgstr "a fost schimbat în %s"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:19
+msgid "Password Change"
+msgstr "Schimbarea parolei"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:21
+msgid "We're contacting you to notify you that your password has been changed on"
+msgstr "Vă contactăm pentru a vă anunța că parola dvs. a fost schimbată pe"
+
+#: ../../../app/views/devise/mailer/password_change.html.erb:24
+msgid ""
+"If you didn't initiate this and it wasn't your intention, please contact us as"
+" soon as possible."
+msgstr ""
+"Dacă nu ați inițiat acest lucru și nu a fost intenția dumneavoastră, vă rugăm "
+"să ne contactați cât mai curând posibil."
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:19
+msgid "Password Change Request"
+msgstr "Cerere de schimbare a parolei"
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:21
+msgid ""
+"Someone has requested a link to change your password. You can proceed with thi"
+"s action"
+msgstr ""
+"Cineva a solicitat un link pentru a vă schimba parola. Puteți continua această"
+" acțiune"
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:31
+msgid "If you didn't request this change, you can safely delete this email."
+msgstr ""
+"Dacă nu ați solicitat această modificare, puteți șterge în siguranță acest e-m"
+"ail."
+
+#: ../../../app/views/devise/mailer/reset_password_instructions.html.erb:32
+msgid ""
+"Your password won't change until you access the link above and create a new on"
+"e."
+msgstr ""
+"Parola dvs. nu se v-a schimba până când nu accesați link-ul de mai sus și seta"
+"ți una nouă."
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:19
+msgid "Unlock Your Account"
+msgstr "Deblocați contul dvs"
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:22
+msgid ""
+"Your account has been locked due to an excessive number of unsuccessful sign i"
+"n attempts."
+msgstr ""
+"Contul dumneavoastră a fost blocat din cauza unui număr ridicat de încercări d"
+"e autentificare eșuate."
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:26
+msgid "Click this link"
+msgstr "Faceți clic pe acest link"
+
+#: ../../../app/views/devise/mailer/unlock_instructions.html.erb:27
+msgid ""
+"to unlock your account or by copying and pasting the following URL into your b"
+"rowser:"
+msgstr ""
+"pentru a vă debloca contul sau copiind și lipind următoarea adresă URL în brow"
+"serul dumneavoastră:"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:9
+msgid "New password"
+msgstr "Parolă nouă"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:14
+msgid "Confirm new password"
+msgstr "Confirmați parola nouă"
+
+#: ../../../app/views/devise/passwords/edit.html.erb:19
+msgid "A minimum of %d characters is required but the more the better."
+msgstr "Este necesar un minim de %d caractere, dar cu cât mai multe, cu atât mai bine."
+
+#: ../../../app/views/devise/registrations/edit.html.erb:10
+msgid "Change Email"
+msgstr "Schimbă e-mailul"
+
+#: ../../../app/views/devise/registrations/edit.html.erb:46
+msgid "Current Password"
+msgstr "Parola curentă"
+
+#: ../../../app/views/devise/registrations/token.html.erb:2
+#: ../../../app/views/shared/_header.html.erb:49
+msgid "API Token"
+msgstr "Token API"
+
+#: ../../../app/views/devise/registrations/token.html.erb:4
+msgid ""
+"This token is specific to your account.  It can be used with command line appl"
+"ications, the JSON API, 3rd party integrations and more."
+msgstr ""
+"Acest token este specific contului dumneavoastră.  Acesta poate fi utilizat cu"
+" aplicații de linie de comandă, API JSON, integrări de la terțe părți și multe"
+" altele."
+
+#: ../../../app/views/devise/registrations/token.html.erb:7
+msgid "Make sure to keep this token secure.  It provides full access to your account."
+msgstr ""
+"Asigurați-vă că păstrați acest simbol în siguranță.  Acesta oferă acces comple"
+"t la contul dvs."
+
+#: ../../../app/views/devise/registrations/token.html.erb:10
+msgid ""
+"If needed, you can regenerate a new token below which will invalidate this exi"
+"sting token."
+msgstr ""
+"Dacă este necesar, puteți regenera un nou token mai jos, care va invalida aces"
+"t token existent."
+
+#: ../../../app/views/devise/registrations/token.html.erb:14
+#: ../../../app/views/pushes/show.html.erb:4
+#: ../../../app/views/pushes/show.html.erb:64
+msgid "Copied!"
+msgstr "Copiat!"
+
+#: ../../../app/views/devise/registrations/token.html.erb:15
+msgid "Your API token is blurred out.  Click below to reveal it."
+msgstr "Tokenul API este estompat.  Faceți clic mai jos pentru a-l dezvălui."
+
+#: ../../../app/views/devise/registrations/token.html.erb:27
+msgid "To delete this token and regenerate a new one, use the button below."
+msgstr ""
+"Pentru a șterge acest token și a regenera unul nou, utilizați butonul de mai j"
+"os."
+
+#: ../../../app/views/devise/registrations/token.html.erb:30
+msgid ""
+"Note that this will invalidate any tools that may be using the existing key an"
+"d will have to be updated with the new token."
+msgstr ""
+"Rețineți că acest lucru va invalida orice instrumente care ar putea utiliza ch"
+"eia existentă și care vor trebui actualizate cu noul token."
+
+#: ../../../app/views/devise/registrations/token.html.erb:34
+msgid "Regenerate Token"
+msgstr "Regenerare Token"
+
+#: ../../../app/views/devise/registrations/token.html.erb:42
+msgid "Delete and generate a new API token?"
+msgstr "Ștergeți și generați un nou token API?"
+
+#: ../../../app/views/devise/registrations/token.html.erb:46
+msgid "This will delete this token and "
+msgstr "Acest lucru va șterge acest token și "
+
+#: ../../../app/views/devise/registrations/token.html.erb:47
+msgid "invalidate any tools that may be using it"
+msgstr "să invalideze orice instrumente care îl folosesc"
+
+#: ../../../app/views/devise/registrations/token.html.erb:48
+msgid "A new token will be generated in its place."
+msgstr "Un nou token va fi generat în locul acestuia."
+
+#: ../../../app/views/devise/registrations/token.html.erb:49
+#: ../../../app/views/pushes/audit.html.erb:218
+#: ../../../app/views/pushes/show.html.erb:115
+msgid "Are you sure?"
+msgstr "Sunteți sigur?"
+
+#: ../../../app/views/devise/registrations/token.html.erb:52
+#: ../../../app/views/pushes/audit.html.erb:221
+#: ../../../app/views/pushes/show.html.erb:118
+msgid "Cancel"
+msgstr "Anulează"
+
+#: ../../../app/views/devise/registrations/token.html.erb:53
+msgid "Delete & Regenerate"
+msgstr "Ștergeți și regenerați"
+
+#: ../../../app/views/devise/registrations/token.html.erb:53
+#: ../../../app/views/pushes/audit.html.erb:222
+#: ../../../app/views/pushes/show.html.erb:119
+msgid "Processing..."
+msgstr "Procesarea..."
+
+#: ../../../app/views/devise/sessions/new.html.erb:7
+msgid "Email"
+msgstr "Email"
+
+#: ../../../app/views/devise/sessions/new.html.erb:12
+msgid "Password"
+msgstr "Parolă"
+
+#: ../../../app/views/layouts/admin/application.html.erb:41
+#: ../../../app/views/layouts/login.html.erb:33
+#: ../../../app/views/shared/_footer.html.erb:11
+#: ../../../app/views/shared/_footer.html.erb:15
+#: ../../../app/views/shared/_header.html.erb:9
+#: ../../../app/views/shared/_header.html.erb:13
+msgid "Password Pusher Logo"
+msgstr "Parola Pusher Logo"
+
+#: ../../../app/views/pages/about.html.erb:1
+msgid "About Password Pusher"
+msgstr "Despre Password Pusher"
+
+#: ../../../app/views/pages/about.html.erb:2
+#: ../../../app/views/shared/_footer.html.erb:48
+msgid "About"
+msgstr "Despre"
+
+#: ../../../app/views/pages/about.html.erb:7
+msgid ""
+"Password Pusher is a tool used for sharing passwords and other sensitive infor"
+"mation with other people securely."
+msgstr ""
+"Password Pusher este un instrument utilizat pentru a partaja parole și alte in"
+"formații sensibile cu alte persoane în siguranță."
+
+#: ../../../app/views/pages/about.html.erb:10
+msgid ""
+"With Password Pusher, you can create a unique, one-time URL that will expire a"
+"fter a certain amount of time or after it has been accessed a certain number o"
+"f times, ensuring that your information remains private and secure."
+msgstr ""
+"Cu Password Pusher, puteți crea un URL unic, care va expira după o anumită per"
+"ioadă de timp sau după ce a fost accesat de un anumit număr de ori, asigurându"
+"-vă că informațiile dvs. rămân private și sigure."
+
+#: ../../../app/views/pages/about.html.erb:11
+msgid ""
+"It is often used by individuals and organizations to share login credentials o"
+"r other sensitive data with colleagues, clients, or partners."
+msgstr ""
+"Acesta este adesea utilizat de persoane și organizații pentru a partaja creden"
+"țiale de conectare sau alte date sensibile cu colegii, clienții sau partenerii"
+"."
+
+#: ../../../app/views/pages/about.html.erb:14
+msgid ""
+"Password Pusher is a simple and convenient solution for securely sharing passw"
+"ords without the need for email or other less secure communication methods."
+msgstr ""
+"Password Pusher este o soluție simplă și convenabilă pentru partajarea în sigu"
+"ranță a parolelor, fără a fi nevoie de e-mail sau alte metode de comunicare ma"
+"i puțin sigure."
+
+#: ../../../app/views/pages/about.html.erb:17
+msgid "Hosted at"
+msgstr "Găzduit la"
+
+#: ../../../app/views/pages/about.html.erb:19
+msgid "or you can run your own private instance wherever you like."
+msgstr "sau vă puteți rula propria instanță privată oriunde doriți."
+
+#: ../../../app/views/pages/about.html.erb:23
+msgid "The source code is"
+msgstr "Codul sursă este"
+
+#: ../../../app/views/pages/about.html.erb:24
+#: ../../../app/views/pages/about.html.erb:41
+msgid "on Github"
+msgstr "pe Github"
+
+#: ../../../app/views/pages/about.html.erb:25
+msgid "It’s opensource and free for anyone to use, review or modify."
+msgstr ""
+"Este open-source și este liber pentru oricine să o folosească, să o revizuiasc"
+"ă sau să o modifice."
+
+#: ../../../app/views/pages/about.html.erb:28
+msgid "The Author"
+msgstr "Autorul"
+
+#: ../../../app/views/pages/about.html.erb:31
+msgid "My name is Peter Giacomo Lombardo. You can find me on"
+msgstr "Numele meu este Peter Giacomo Lombardo. Mă puteți găsi pe"
+
+#: ../../../app/views/pages/about.html.erb:34
+#: ../../../app/views/pages/about.html.erb:40
+#: ../../../app/views/pushes/preview.html.erb:58
+#: ../../../app/views/pushes/print_preview.html.erb:14
+#: ../../../app/views/pushes/show.html.erb:46
+#: ../../../app/views/pushes/show.html.erb:49
+#: ../../../app/views/pushes/show.html.erb:80
+#: ../../../app/views/pushes/show.html.erb:83
+msgid "or"
+msgstr "sau"
+
+#: ../../../app/views/pages/about.html.erb:38
+msgid "For updates, you can"
+msgstr "Pentru actualizări, puteți"
+
+#: ../../../app/views/pages/about.html.erb:39
+msgid "follow me on Twitter"
+msgstr "urmărește-mă pe Twitter"
+
+#: ../../../app/views/pages/about.html.erb:44
+msgid "Want to Help Out?"
+msgstr "Vrei să ajuți?"
+
+#: ../../../app/views/pages/about.html.erb:48
+msgid "By far the biggest help is to spread the word"
+msgstr "De departe, cel mai mare ajutor este de a răspândi cuvântul"
+
+#: ../../../app/views/pages/about.html.erb:50
+msgid "Share and suggest Password Pusher to colleagues and friends."
+msgstr "Partajați și sugerați Password Pusher colegilor și prietenilor."
+
+#: ../../../app/views/pages/about.html.erb:53
+msgid "You can also"
+msgstr "De asemenea, puteți"
+
+#: ../../../app/views/pages/about.html.erb:56
+msgid "Star the Github project"
+msgstr "Începeți proiectul Github"
+
+#: ../../../app/views/pages/about.html.erb:57
+msgid "It's gasoline for the algos that trend Password Pusher."
+msgstr "Este benzină pentru alogeni care au tendința de a folosi Password Pusher."
+
+#: ../../../app/views/pages/about.html.erb:60
+msgid "Sign up for the"
+msgstr "Înscrieți-vă pentru"
+
+#: ../../../app/views/pages/about.html.erb:61
+msgid "newsletter"
+msgstr "newsletter"
+
+#: ../../../app/views/pages/about.html.erb:62
+msgid "to get updates on important releases, security issues, tips and more."
+msgstr ""
+"pentru a primi actualizări cu privire la versiuni importante, probleme de secu"
+"ritate, sfaturi și multe altele."
+
+#: ../../../app/views/pages/about.html.erb:65
+msgid "Follow Password Pusher on"
+msgstr "Urmăriți Password Pusher pe"
+
+#: ../../../app/views/pages/about.html.erb:68
+#: ../../../app/views/pages/about.html.erb:91
+#: ../../../app/views/pushes/preview.html.erb:65
+#: ../../../app/views/pushes/preview.html.erb:67
+msgid "and"
+msgstr "și"
+
+#: ../../../app/views/pages/about.html.erb:72
+msgid "Fix an issue, add a feature or write some documentation."
+msgstr "Remediați o problemă, adăugați o caracteristică sau scrieți documentație."
+
+#: ../../../app/views/pages/about.html.erb:72
+msgid "See the Github project."
+msgstr "Consultați proiectul Github."
+
+#: ../../../app/views/pages/about.html.erb:75
+msgid "Sign up to Digital Ocean"
+msgstr "Înscrieți-vă la Digital Ocean"
+
+#: ../../../app/views/pages/about.html.erb:76
+msgid "with this link"
+msgstr "cu acest link"
+
+#: ../../../app/views/pages/about.html.erb:77
+msgid "to get Password Pusher a hosting credit."
+msgstr "pentru a obține un credit de găzduire pentru Password Pusher."
+
+#: ../../../app/views/pages/about.html.erb:81
+msgid "Thank you for supporting Password Pusher!"
+msgstr "Vă mulțumim pentru că susțineți Password Pusher!"
+
+#: ../../../app/views/pages/about.html.erb:83
+#: ../../../app/views/shared/_footer.html.erb:25
+msgid "Resources"
+msgstr "Resurse"
+
+#: ../../../app/views/pages/about.html.erb:86
+msgid ""
+"If you are giving a presentation, authoring a blog post or video about Passwor"
+"d Pusher, feel free to contact me for any questions."
+msgstr ""
+"Dacă faceți o prezentare, scrieți un articol pe blog sau un videoclip despre P"
+"assword Pusher, nu ezitați să mă contactați pentru orice întrebare."
+
+#: ../../../app/views/pages/about.html.erb:89
+msgid "We have media resources and a full explanation of features available in"
+msgstr "Avem resurse media și o explicație completă a funcțiilor disponibile în"
+
+#: ../../../app/views/pages/about.html.erb:90
+msgid "Windows Powerpoint"
+msgstr "Windows Powerpoint"
+
+#: ../../../app/views/pages/about.html.erb:92
+msgid "Mac Keynote"
+msgstr "Mac Keynote"
+
+#: ../../../app/views/pages/about.html.erb:93
+msgid "formats."
+msgstr "formate."
+
+#: ../../../app/views/pages/about.html.erb:99
+msgid "Birthday"
+msgstr "Ziua de naștere"
+
+#: ../../../app/views/pages/about.html.erb:101
+msgid "More Than 11 Years Old"
+msgstr "Mai mult de 11 ani"
+
+#: ../../../app/views/pages/about.html.erb:103
+msgid "The first git commit to Password Pusher was on"
+msgstr "Primul commit git pentru Password Pusher a fost pe"
+
+#: ../../../app/views/pages/about.html.erb:107
+msgid "pwpush.com went live shortly thereafter."
+msgstr "pwpush.com a fost lansat la scurt timp după aceea."
+
+#: ../../../app/views/pages/about.html.erb:113
+msgid "The Original Theme"
+msgstr "Tema originală"
+
+#: ../../../app/views/pages/about.html.erb:114
+msgid ""
+"The original site design consisted of a dark background with a bold yellow fon"
+"t."
+msgstr ""
+"Designul original al site-ului era format dintr-un fundal întunecat cu un font"
+" galben îndrăzneț."
+
+#: ../../../app/views/pages/about.html.erb:117
+msgid "Follow for news, changes & updates."
+msgstr "Urmăriți-ne pentru știri, modificări și actualizări."
+
+#: ../../../app/views/pages/generate_key.html.erb:1
+msgid "Generate Key"
+msgstr "Generarea cheii"
+
+#: ../../../app/views/pages/generate_key.html.erb:3
+msgid "Generate an Encryption Key"
+msgstr "Generarea unei chei de criptare"
+
+#: ../../../app/views/pages/generate_key.html.erb:6
+msgid ""
+"This page is used as a helper tool to generate a random encryption key for pri"
+"vately hosted instances of Password Pusher."
+msgstr ""
+"Această pagină este utilizată ca un instrument de ajutor pentru a genera o che"
+"ie de criptare aleatorie pentru instanțele private găzduite de Password Pusher"
+"."
+
+#: ../../../app/views/pages/generate_key.html.erb:10
+msgid ""
+"Password Pusher encrypts sensitive data in the database.  This requires a rand"
+"omly generated encryption key for each application instance."
+msgstr ""
+"Password Pusher criptează datele sensibile din baza de date.  Acest lucru nece"
+"sită o cheie de criptare generată aleatoriu pentru fiecare instanță a aplicați"
+"ei."
+
+#: ../../../app/views/pages/generate_key.html.erb:14
+msgid ""
+"You can use the randomly generated code below to configure your Password Pushe"
+"r instance."
+msgstr ""
+"Puteți utiliza codul generat aleatoriu de mai jos pentru a vă configura instan"
+"ța Password Pusher."
+
+#: ../../../app/views/pages/generate_key.html.erb:22
+msgid "Generated Encryption Key"
+msgstr "Cheia de criptare generată"
+
+#: ../../../app/views/pages/generate_key.html.erb:32
+msgid "You can apply this key to your application by setting the environment variable"
+msgstr ""
+"Puteți aplica această cheie aplicației dumneavoastră prin setarea variabilei d"
+"e mediu"
+
+#: ../../../app/views/pages/generate_key.html.erb:45
+msgid "Reload this page to re-generate a new key."
+msgstr "Reîncărcați această pagină pentru a genera din nou o nouă cheie."
+
+#: ../../../app/views/pages/generate_key.html.erb:49
+msgid "Notes:"
+msgstr "Note:"
+
+#: ../../../app/views/pages/generate_key.html.erb:52
+msgid "If an encryption key isn't provided, a default key will be used."
+msgstr "Dacă nu este furnizată o cheie de criptare, se va utiliza o cheie implicită."
+
+#: ../../../app/views/pages/generate_key.html.erb:55
+msgid ""
+"The best security for private instances of Password Pusher is to use your own "
+"custom encryption key although it is not required."
+msgstr ""
+"Cea mai bună securitate pentru instanțele private ale Password Pusher este să "
+"utilizați propria cheie de criptare personalizată, deși nu este obligatorie."
+
+#: ../../../app/views/pages/generate_key.html.erb:58
+msgid ""
+"The risk in using the default key is lessened if you keep your instance secure"
+" and your push expirations short.  e.g.  1 day/1 view versus 100 days/100 view"
+"s."
+msgstr ""
+"Riscul de a utiliza cheia implicită este mai mic dacă vă păstrați instanța sec"
+"urizată și expirațiile push scurte. de exemplu, 1 zi/1 vizualizare față de 100"
+" de zile/100 de vizualizări."
+
+#: ../../../app/views/pages/generate_key.html.erb:61
+msgid "Once a push expires, all encrypted data is deleted."
+msgstr "Odată ce un push expiră, toate datele criptate sunt șterse."
+
+#: ../../../app/views/pages/generate_key.html.erb:64
+msgid ""
+"Changing an encryption key where old pushes already exist will make those olde"
+"r pushes unreadable.  In other words, the payloads will be garbled.  New pushe"
+"s going forward will work fine."
+msgstr ""
+"Schimbarea unei chei de criptare în cazul în care există deja push-uri mai vec"
+"hi va face ca acele push-uri mai vechi să devină ilizibile.  Cu alte cuvinte, "
+"încărcăturile utile vor fi distorsionate.  Noile push-uri viitoare vor funcțio"
+"na fără probleme."
+
+#: ../../../app/views/pages/generate_key.html.erb:67
+msgid ""
+"Key generation can also be done from the command line in the application sourc"
+"e by executing: "
+msgstr ""
+"Generarea cheilor se poate face, de asemenea, din linia de comandă în sursa ap"
+"licației prin executarea: "
+
+#: ../../../app/views/pages/generate_key.html.erb:79
+msgid "See also the Password Pusher"
+msgstr "Vedeți, de asemenea, Password Pusher"
+
+#: ../../../app/views/pages/generate_key.html.erb:80
+msgid "Configuration documentation"
+msgstr "Documentația de configurare"
+
+#: ../../../app/views/pushes/_files_form.html.erb:1
+msgid "Securely Send Files"
+msgstr "Trimiteți în siguranță fișiere"
+
+#: ../../../app/views/pushes/_files_form.html.erb:6
+#: ../../../app/views/pushes/_form.html.erb:6
+#: ../../../app/views/pushes/_qr_form.html.erb:6
+#: ../../../app/views/pushes/_url_form.html.erb:6
+#: ../../../app/views/pushes/audit.html.erb:43
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "ziua"
+msgstr[1] "Zile"
+msgstr[2] "Zile"
+
+#: ../../../app/views/pushes/_files_form.html.erb:7
+#: ../../../app/views/pushes/_files_form.html.erb:62
+#: ../../../app/views/pushes/_form.html.erb:7
+#: ../../../app/views/pushes/_form.html.erb:69
+#: ../../../app/views/pushes/_qr_form.html.erb:7
+#: ../../../app/views/pushes/_qr_form.html.erb:70
+#: ../../../app/views/pushes/_url_form.html.erb:7
+#: ../../../app/views/pushes/_url_form.html.erb:56
+msgid "Days"
+msgstr "Zile"
+
+#: ../../../app/views/pushes/_files_form.html.erb:9
+#: ../../../app/views/pushes/_form.html.erb:9
+#: ../../../app/views/pushes/_qr_form.html.erb:9
+#: ../../../app/views/pushes/_url_form.html.erb:9
+#: ../../../app/views/pushes/audit.html.erb:34
+msgid "View"
+msgid_plural "Views"
+msgstr[0] "Vezi"
+msgstr[1] "Vizualizări"
+msgstr[2] "Vizualizări"
+
+#: ../../../app/views/pushes/_files_form.html.erb:10
+#: ../../../app/views/pushes/_files_form.html.erb:80
+#: ../../../app/views/pushes/_form.html.erb:10
+#: ../../../app/views/pushes/_form.html.erb:86
+#: ../../../app/views/pushes/_qr_form.html.erb:10
+#: ../../../app/views/pushes/_qr_form.html.erb:87
+#: ../../../app/views/pushes/_url_form.html.erb:10
+#: ../../../app/views/pushes/_url_form.html.erb:75
+msgid "Views"
+msgstr "Vizualizări"
+
+#: ../../../app/views/pushes/_files_form.html.erb:12
+#: ../../../app/views/pushes/_files_form.html.erb:133
+#: ../../../app/views/pushes/_form.html.erb:12
+#: ../../../app/views/pushes/_form.html.erb:137
+#: ../../../app/views/pushes/_qr_form.html.erb:12
+#: ../../../app/views/pushes/_qr_form.html.erb:138
+#: ../../../app/views/pushes/_url_form.html.erb:12
+#: ../../../app/views/pushes/_url_form.html.erb:116
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:72
+msgid "Save"
+msgstr "Salvați"
+
+#: ../../../app/views/pushes/_files_form.html.erb:13
+#: ../../../app/views/pushes/_form.html.erb:13
+#: ../../../app/views/pushes/_qr_form.html.erb:13
+#: ../../../app/views/pushes/_url_form.html.erb:13
+msgid "Saved!"
+msgstr "Salvat!"
+
+#: ../../../app/views/pushes/_files_form.html.erb:29
+msgid "Add Files..."
+msgstr "Adăugați fișiere..."
+
+#: ../../../app/views/pushes/_files_form.html.erb:49
+#: ../../../app/views/pushes/_form.html.erb:56
+#: ../../../app/views/pushes/_qr_form.html.erb:57
+#: ../../../app/views/pushes/_url_form.html.erb:43
+msgid "Expire secret link and delete after:"
+msgstr "Expirați legătura secretă și ștergeți-o după aceea:"
+
+#: ../../../app/views/pushes/_files_form.html.erb:85
+#: ../../../app/views/pushes/_form.html.erb:91
+#: ../../../app/views/pushes/_qr_form.html.erb:92
+#: ../../../app/views/pushes/_url_form.html.erb:80
+#: ../../../app/views/pushes/preview.html.erb:61
+#: ../../../app/views/pushes/preview.html.erb:63
+#: ../../../app/views/pushes/print_preview.html.erb:16
+msgid "(whichever comes first)"
+msgstr "(oricare dintre acestea este prima)"
+
+#: ../../../app/views/pushes/_files_form.html.erb:99
+#: ../../../app/views/pushes/_form.html.erb:104
+#: ../../../app/views/pushes/_qr_form.html.erb:105
+#: ../../../app/views/pushes/_url_form.html.erb:94
+msgid "Use a 1-click retrieval step"
+msgstr "Utilizați o etapă de recuperare cu 1 clic"
+
+#: ../../../app/views/pushes/_files_form.html.erb:100
+#: ../../../app/views/pushes/_form.html.erb:105
+#: ../../../app/views/pushes/_qr_form.html.erb:106
+#: ../../../app/views/pushes/audit.html.erb:73
+msgid "Helps to avoid chat systems and URL scanners from eating up views."
+msgstr ""
+"Ajută la evitarea sistemelor de chat și a scanerelor de adrese URL de la consu"
+"mul de vizualizări."
+
+#: ../../../app/views/pushes/_files_form.html.erb:111
+#: ../../../app/views/pushes/_form.html.erb:115
+#: ../../../app/views/pushes/_qr_form.html.erb:116
+msgid "Allow immediate deletion"
+msgstr "Permite ștergerea imediată"
+
+#: ../../../app/views/pushes/_files_form.html.erb:112
+#: ../../../app/views/pushes/_form.html.erb:116
+#: ../../../app/views/pushes/_qr_form.html.erb:117
+msgid "Allow users to delete this push once retrieved."
+msgstr "Permiteți utilizatorilor să șteargă acest push după ce a fost recuperat."
+
+#: ../../../app/views/pushes/_files_form.html.erb:122
+#: ../../../app/views/pushes/_form.html.erb:126
+#: ../../../app/views/pushes/_qr_form.html.erb:127
+#: ../../../app/views/pushes/_url_form.html.erb:105
+#: ../../../app/views/pushes/audit.html.erb:78
+msgid "Passphrase Lockdown"
+msgstr "Blocarea frazei de acces"
+
+#: ../../../app/views/pushes/_files_form.html.erb:125
+#: ../../../app/views/pushes/_form.html.erb:129
+#: ../../../app/views/pushes/_qr_form.html.erb:130
+#: ../../../app/views/pushes/_url_form.html.erb:108
+msgid "Optional: Require recipients to enter a passphrase to view this push"
+msgstr ""
+"Opțional: Cereți destinatarilor să introducă o frază de acces pentru a vizuali"
+"za acest mesaj push"
+
+#: ../../../app/views/pushes/_files_form.html.erb:133
+#: ../../../app/views/pushes/_form.html.erb:137
+#: ../../../app/views/pushes/_qr_form.html.erb:138
+#: ../../../app/views/pushes/_url_form.html.erb:116
+msgid "the above settings as the page default."
+msgstr "setările de mai sus ca fiind setările implicite ale paginii."
+
+#: ../../../app/views/pushes/_files_form.html.erb:146
+#: ../../../app/views/pushes/_files_form.html.erb:169
+#: ../../../app/views/pushes/_form.html.erb:163
+#: ../../../app/views/pushes/_form.html.erb:173
+#: ../../../app/views/pushes/_qr_form.html.erb:164
+#: ../../../app/views/pushes/_qr_form.html.erb:174
+#: ../../../app/views/pushes/_url_form.html.erb:128
+#: ../../../app/views/pushes/_url_form.html.erb:138
+msgid "Optional"
+msgstr "Opțional"
+
+#: ../../../app/views/pushes/_files_form.html.erb:149
+#: ../../../app/views/pushes/_form.html.erb:166
+#: ../../../app/views/pushes/_qr_form.html.erb:167
+#: ../../../app/views/pushes/_url_form.html.erb:131
+msgid "A name shown in the dashboard, notifications and emails."
+msgstr "Un nume afișat în tabloul de bord, notificări și e-mailuri."
+
+#: ../../../app/views/pushes/_files_form.html.erb:154
+msgid "Message"
+msgstr "Mesaj"
+
+#: ../../../app/views/pushes/_files_form.html.erb:157
+msgid "Optional: A message to be included with the push"
+msgstr "Opțional: Un mesaj care să fie inclus cu push"
+
+#: ../../../app/views/pushes/_files_form.html.erb:161
+msgid "Encrypted and visible to the receiving party"
+msgstr "Criptat și vizibil pentru partea destinatară"
+
+#: ../../../app/views/pushes/_files_form.html.erb:166
+#: ../../../app/views/pushes/_form.html.erb:170
+#: ../../../app/views/pushes/_qr_form.html.erb:171
+#: ../../../app/views/pushes/_url_form.html.erb:135
+#: ../../../app/views/pushes/audit.html.erb:15
+msgid "Reference Note"
+msgstr "Notă de referință"
+
+#: ../../../app/views/pushes/_files_form.html.erb:172
+#: ../../../app/views/pushes/_form.html.erb:176
+#: ../../../app/views/pushes/_qr_form.html.erb:177
+#: ../../../app/views/pushes/_url_form.html.erb:141
+msgid "Encrypted and visible only to you"
+msgstr "Criptat și vizibil doar pentru dvs"
+
+#: ../../../app/views/pushes/_files_form.html.erb:178
+msgid ""
+"Once expired, all files and content of the push will be deleted immediately an"
+"d entirely."
+msgstr ""
+"Odată expirate, toate fișierele și conținutul push vor fi șterse imediat și în"
+" întregime."
+
+#: ../../../app/views/pushes/_files_form.html.erb:183
+#: ../../../app/views/pushes/_url_form.html.erb:153
+msgid "An audit log of activity will be available."
+msgstr "Va fi disponibil un jurnal de audit al activității."
+
+#: ../../../app/views/pushes/_files_form.html.erb:191
+#: ../../../app/views/pushes/_form.html.erb:189
+#: ../../../app/views/pushes/_qr_form.html.erb:190
+#: ../../../app/views/pushes/_url_form.html.erb:161
+msgid "Push It!"
+msgstr "Împingeți-l!"
+
+#: ../../../app/views/pushes/_form.html.erb:1
+msgid "Securely Send a Password"
+msgstr "Trimiteți în siguranță o parolă"
+
+#: ../../../app/views/pushes/_form.html.erb:36
+msgid "Enter the Password or Text to push..."
+msgstr "Introduceți parola sau textul pentru a apăsa..."
+
+#: ../../../app/views/pushes/_form.html.erb:48
+#: ../../../app/views/pushes/_qr_form.html.erb:49
+msgid "Characters"
+msgstr "Caractere"
+
+#: ../../../app/views/pushes/_form.html.erb:149
+#: ../../../app/views/pushes/_qr_form.html.erb:150
+msgid "Generate Password"
+msgstr "Generarea parolei"
+
+#: ../../../app/views/pushes/_form.html.erb:156
+#: ../../../app/views/pushes/_qr_form.html.erb:157
+msgid "Use the button above to generate a random password."
+msgstr "Utilizați butonul de mai sus pentru a genera o parolă aleatorie."
+
+#: ../../../app/views/pushes/_form.html.erb:181
+#: ../../../app/views/pushes/_qr_form.html.erb:182
+msgid ""
+"Tip: Only enter a password into the box.  Other identifying information can co"
+"mpromise security."
+msgstr ""
+"Sfat: Introduceți doar o parolă în căsuță.  Alte informații de identificare po"
+"t compromite securitatea."
+
+#: ../../../app/views/pushes/_form.html.erb:182
+#: ../../../app/views/pushes/_qr_form.html.erb:183
+msgid ""
+"All passwords are encrypted prior to storage and are available to only those w"
+"ith the secret link.  Once expired, encrypted passwords are unequivocally dele"
+"ted from the database."
+msgstr ""
+"Toate parolele sunt criptate înainte de a fi stocate și sunt disponibile doar "
+"pentru cei care au legătura secretă.  Odată expirate, parolele criptate sunt ș"
+"terse fără echivoc din baza de date."
+
+#: ../../../app/views/pushes/_qr_form.html.erb:1
+msgid "Securely Send a QR Code"
+msgstr "Trimiteți în siguranță un cod QR"
+
+#: ../../../app/views/pushes/_qr_form.html.erb:36
+msgid "Enter up to 1024 characters..."
+msgstr "Introduceți până la 1024 de caractere..."
+
+#: ../../../app/views/pushes/_show_payload.html.erb:2
+#: ../../../app/views/pushes/_show_qr.html.erb:2
+msgid ""
+"Please obtain and securely store this content in a secure manner, such as in a"
+" password manager."
+msgstr ""
+"Vă rugăm să obțineți și să stocați acest conținut într-un mod sigur, cum ar fi"
+" într-un manager de parole."
+
+#: ../../../app/views/pushes/_show_payload.html.erb:4
+msgid "Your password is blurred out.  Click below to reveal it."
+msgstr "Parola dvs. este estompată.  Faceți clic mai jos pentru a o dezvălui."
+
+#: ../../../app/views/pushes/_url_form.html.erb:1
+msgid "Securely Send URLs"
+msgstr "Trimiteți în siguranță URL-uri"
+
+#: ../../../app/views/pushes/_url_form.html.erb:28
+msgid "URL Redirection"
+msgstr "Redirecționare URL"
+
+#: ../../../app/views/pushes/_url_form.html.erb:32
+msgid "Enter the URL to redirect to..."
+msgstr "Introduceți URL-ul către care doriți să redirecționați..."
+
+#: ../../../app/views/pushes/_url_form.html.erb:95
+msgid "Helps to avoid chat systems and URL scanners from eating up redirects."
+msgstr ""
+"Ajută la evitarea sistemelor de chat și a scanerelor de URL-uri de a consuma r"
+"edirecționările."
+
+#: ../../../app/views/pushes/_url_form.html.erb:147
+msgid "A secret URL will be generated that will redirect to the URL specified."
+msgstr "Se va genera un URL secret care va redirecționa către URL-ul specificat."
+
+#: ../../../app/views/pushes/_url_form.html.erb:152
+msgid "Upon expiration, the push URL will be deleted entirely."
+msgstr "La expirare, URL-ul push va fi șters în întregime."
+
+#: ../../../app/views/pushes/audit.html.erb:1
+msgid "Audit Log for %{push_id}"
+msgstr "Jurnal de audit pentru %{push_id}"
+
+#: ../../../app/views/pushes/audit.html.erb:6
+msgid "Pushed on %{date}"
+msgstr "A fost împins pe %{date}"
+
+#: ../../../app/views/pushes/audit.html.erb:9
+msgid "Secret URL for this push"
+msgstr "URL secret pentru acest push"
+
+#: ../../../app/views/pushes/audit.html.erb:16
+msgid "Visible Only To You"
+msgstr "Vizibil doar pentru tine"
+
+#: ../../../app/views/pushes/audit.html.erb:19
+#: ../../../app/views/pushes/index.html.erb:67
+msgid "None"
+msgstr "Nici unul"
+
+#: ../../../app/views/pushes/audit.html.erb:28
+msgid "Settings"
+msgstr "Setări"
+
+#: ../../../app/views/pushes/audit.html.erb:32
+#: ../../../app/views/pushes/audit.html.erb:41
+msgid "Expire after"
+msgstr "Expiră după"
+
+#: ../../../app/views/pushes/audit.html.erb:36
+msgid "The push expires after this number of views."
+msgstr "Push expiră după acest număr de vizualizări."
+
+#: ../../../app/views/pushes/audit.html.erb:45
+msgid "The push expires after this number of days."
+msgstr "Push expiră după acest număr de zile."
+
+#: ../../../app/views/pushes/audit.html.erb:51
+msgid "Deletable by Viewers"
+msgstr "Șterse de către telespectatori"
+
+#: ../../../app/views/pushes/audit.html.erb:54
+#: ../../../app/views/pushes/audit.html.erb:68
+msgid "True"
+msgstr "Adevărat"
+
+#: ../../../app/views/pushes/audit.html.erb:56
+#: ../../../app/views/pushes/audit.html.erb:70
+msgid "False"
+msgstr "Fals"
+
+#: ../../../app/views/pushes/audit.html.erb:59
+msgid "This allows end users to delete content once retrieved."
+msgstr ""
+"Acest lucru le permite utilizatorilor finali să șteargă conținutul odată ce a "
+"fost recuperat."
+
+#: ../../../app/views/pushes/audit.html.erb:65
+msgid "1-click Retrieval Step"
+msgstr "etapa de recuperare cu 1 clic"
+
+#: ../../../app/views/pushes/audit.html.erb:81
+#: ../../../app/views/pushes/audit.html.erb:140
+msgid "No"
+msgstr "Nu"
+
+#: ../../../app/views/pushes/audit.html.erb:83
+#: ../../../app/views/pushes/audit.html.erb:142
+msgid "Yes"
+msgstr "Da"
+
+#: ../../../app/views/pushes/audit.html.erb:86
+msgid "Require recipients to enter a passphrase to view this push."
+msgstr ""
+"Solicitați destinatarilor să introducă o frază de acces pentru a vizualiza ace"
+"st push."
+
+#: ../../../app/views/pushes/audit.html.erb:92
+msgid "Current Status"
+msgstr "Starea actuală"
+
+#: ../../../app/views/pushes/audit.html.erb:96
+msgid "State:"
+msgstr "Statul:"
+
+#: ../../../app/views/pushes/audit.html.erb:98
+#: ../../../app/views/pushes/index.html.erb:75
+#: ../../../app/views/shared/_dashboard_header.html.erb:11
+msgid "Expired"
+msgstr "Expirat"
+
+#: ../../../app/views/pushes/audit.html.erb:99
+msgid "The push content has been deleted and the secret URL expired."
+msgstr "Conținutul push a fost șters, iar URL-ul secret a expirat."
+
+#: ../../../app/views/pushes/audit.html.erb:101
+#: ../../../app/views/shared/_dashboard_header.html.erb:10
+msgid "Active"
+msgstr "Activ"
+
+#: ../../../app/views/pushes/audit.html.erb:102
+msgid "Active and still available for viewing."
+msgstr "Activ și încă disponibil pentru vizionare."
+
+#: ../../../app/views/pushes/audit.html.erb:108
+msgid "Successful Views"
+msgstr "Vizualizări de succes"
+
+#: ../../../app/views/pushes/audit.html.erb:109
+msgid "The number of times this push has been viewed before expiration."
+msgstr "Numărul de ori de câte ori a fost vizualizat acest push înainte de expirare."
+
+#: ../../../app/views/pushes/audit.html.erb:114
+msgid "Failed View Attempts"
+msgstr "Încercări eșuate de vizualizare"
+
+#: ../../../app/views/pushes/audit.html.erb:115
+msgid "The number of times this push has been viewed after expiration."
+msgstr "Numărul de ori de câte ori a fost vizualizat acest push după expirare."
+
+#: ../../../app/views/pushes/audit.html.erb:120
+msgid "Days Remaining"
+msgstr "Zile rămase"
+
+#: ../../../app/views/pushes/audit.html.erb:121
+msgid ""
+"Number of days until this push expires if the maximum view count isn't reached"
+"."
+msgstr ""
+"Numărul de zile până la expirarea acestui push dacă nu se atinge numărul maxim"
+" de vizualizări."
+
+#: ../../../app/views/pushes/audit.html.erb:131
+msgid "Payload"
+msgstr "Sarcina utilă"
+
+#: ../../../app/views/pushes/audit.html.erb:135
+msgid "Contains Message for Receiver"
+msgstr "Conține un mesaj pentru destinatar"
+
+#: ../../../app/views/pushes/audit.html.erb:138
+#: ../../../app/views/pushes/audit.html.erb:153
+msgid "Deleted"
+msgstr "Șters"
+
+#: ../../../app/views/pushes/audit.html.erb:145
+msgid "Has a text payload been added to this push?"
+msgstr "A fost adăugată o încărcătură de text la acest push?"
+
+#: ../../../app/views/pushes/audit.html.erb:150
+msgid "Message Length"
+msgstr "Lungimea mesajului"
+
+#: ../../../app/views/pushes/audit.html.erb:155
+msgid "Not Applicable"
+msgstr "Nu se aplică"
+
+#: ../../../app/views/pushes/audit.html.erb:160
+msgid "The length of the attached text payload."
+msgstr "Lungimea încărcăturii utile de text atașate."
+
+#: ../../../app/views/pushes/audit.html.erb:165
+msgid "Number of Files Attached"
+msgstr "Numărul de fișiere atașate"
+
+#: ../../../app/views/pushes/audit.html.erb:173
+msgid "The number of files attached to this push. This value will be 0 when expired."
+msgstr ""
+"Numărul de fișiere atașate la acest push. Această valoare va fi 0 atunci când "
+"expiră."
+
+#: ../../../app/views/pushes/audit.html.erb:179
+msgid "Attached Files"
+msgstr "Fișiere atașate"
+
+#: ../../../app/views/pushes/audit.html.erb:185
+msgid "Filename:"
+msgstr "Numele fișierului:"
+
+#: ../../../app/views/pushes/audit.html.erb:187
+msgid "Size: "
+msgstr "Dimensiune: "
+
+#: ../../../app/views/pushes/audit.html.erb:192
+msgid "All attached files have been deleted."
+msgstr "Toate fișierele atașate au fost șterse."
+
+#: ../../../app/views/pushes/audit.html.erb:204
+msgid "Expire Now"
+msgstr "Expiră acum"
+
+#: ../../../app/views/pushes/audit.html.erb:212
+msgid "Delete This Push?"
+msgstr "Ștergeți acest impuls?"
+
+#: ../../../app/views/pushes/audit.html.erb:216
+msgid "This will expire this secret link and"
+msgstr "Acest lucru va expira această legătură secretă și"
+
+#: ../../../app/views/pushes/audit.html.erb:216
+msgid "remove all content from the database forever"
+msgstr "elimină tot conținutul din baza de date pentru totdeauna"
+
+#: ../../../app/views/pushes/audit.html.erb:217
+msgid ""
+"The audit log (including future attempted views) will still be maintained goin"
+"g forward."
+msgstr ""
+"Registrul de audit (inclusiv viitoarele încercări de vizualizare) va fi mențin"
+"ut și în continuare."
+
+#: ../../../app/views/pushes/audit.html.erb:222
+#: ../../../app/views/pushes/show.html.erb:119
+msgid "Delete"
+msgstr "Ștergeți"
+
+#: ../../../app/views/pushes/audit.html.erb:234
+msgid "Start of Audit Log"
+msgstr "Începutul jurnalului de audit"
+
+#: ../../../app/views/pushes/audit.html.erb:240
+msgid ""
+"As the push receives activity, a log of each with identifying information will"
+" show up here."
+msgstr ""
+"Pe măsură ce push primește activitate, aici va apărea un jurnal cu informații "
+"de identificare pentru fiecare dintre acestea."
+
+#: ../../../app/views/pushes/audit.html.erb:244
+msgid "End of Audit Log"
+msgstr "Sfârșitul jurnalului de audit"
+
+#: ../../../app/views/pushes/index.html.erb:1
+#: ../../../app/views/pushes/index.html.erb:26
+#: ../../../app/views/pushes/index.html.erb:34
+msgid "Active Pushes"
+msgstr "Împingeri active"
+
+#: ../../../app/views/pushes/index.html.erb:9
+msgid "You currently have no active pushes."
+msgstr "În prezent, nu aveți nicio împingere activă."
+
+#: ../../../app/views/pushes/index.html.erb:11
+msgid "You currently have no expired pushes."
+msgstr "În prezent, nu aveți nicio împingere expirată."
+
+#: ../../../app/views/pushes/index.html.erb:13
+msgid "You currently have no pushes."
+msgstr "În prezent, nu aveți nicio împingere."
+
+#: ../../../app/views/pushes/index.html.erb:19
+msgid "Push a Password Now"
+msgstr "Introduceți o parolă acum"
+
+#: ../../../app/views/pushes/index.html.erb:28
+msgid "Expired Pushes"
+msgstr "Presiuni expirate"
+
+#: ../../../app/views/pushes/index.html.erb:30
+msgid "All Pushes"
+msgstr "Toate împingerile"
+
+#: ../../../app/views/pushes/index.html.erb:39
+msgid "Created"
+msgstr "Creat"
+
+#: ../../../app/views/pushes/index.html.erb:40
+msgid "Note"
+msgstr "Notă"
+
+#: ../../../app/views/pushes/index.html.erb:55
+msgid "File(s)"
+msgstr "Fișier(e)"
+
+#: ../../../app/views/pushes/index.html.erb:57
+msgid "URL"
+msgstr "URL"
+
+#: ../../../app/views/pushes/index.html.erb:59
+msgid "QR Code"
+msgstr "Cod QR"
+
+#: ../../../app/views/pushes/index.html.erb:61
+msgid "Text"
+msgstr "Text"
+
+#: ../../../app/views/pushes/index.html.erb:80
+msgid "Push Controls"
+msgstr "Comenzi de împingere"
+
+#: ../../../app/views/pushes/index.html.erb:83
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: ../../../app/views/pushes/index.html.erb:87
+msgid "Audit"
+msgstr "Audit"
+
+#: ../../../app/views/pushes/passphrase.html.erb:1
+msgid "Enter The Secret Passphrase"
+msgstr "Introduceți fraza de acces secretă"
+
+#: ../../../app/views/pushes/passphrase.html.erb:12
+msgid "Enter the secret passphrase provided with this URL"
+msgstr "Introduceți fraza de acces secretă furnizată cu acest URL"
+
+#: ../../../app/views/pushes/passphrase.html.erb:13
+msgid "Enter the secret passphrase"
+msgstr "Introduceți fraza de acces secretă"
+
+#: ../../../app/views/pushes/passphrase.html.erb:17
+msgid "Go"
+msgstr "Du-te"
+
+#: ../../../app/views/pushes/preliminary.html.erb:4
+msgid "Click Here to Proceed"
+msgstr "Faceți clic aici pentru a continua"
+
+#: ../../../app/views/pushes/preview.html.erb:1
+msgid "Your Push Has Been Created"
+msgstr "Push-ul tău a fost creat"
+
+#: ../../../app/views/pushes/preview.html.erb:6
+msgid "Your push has been created."
+msgstr "A fost creat push-ul tău."
+
+#: ../../../app/views/pushes/preview.html.erb:8
+msgid "Use this secret link to share it:"
+msgstr "Folosiți acest link secret pentru a-l distribui:"
+
+#: ../../../app/views/pushes/preview.html.erb:14
+msgid "Print & Share"
+msgstr "Imprimați și distribuiți"
+
+#: ../../../app/views/pushes/preview.html.erb:19
+msgid "Generate a Printable Page for End Users"
+msgstr "Generarea unei pagini imprimabile pentru utilizatorii finali"
+
+#: ../../../app/views/pushes/preview.html.erb:24
+#: ../../../app/views/pushes/preview.html.erb:26
+msgid "Optional Custom Message"
+msgstr "Mesaj personalizat opțional"
+
+#: ../../../app/views/pushes/preview.html.erb:35
+msgid "Show Expiration Details"
+msgstr "Afișați detaliile de expirare"
+
+#: ../../../app/views/pushes/preview.html.erb:42
+msgid "Include ID"
+msgstr "Includeți ID-ul"
+
+#: ../../../app/views/pushes/preview.html.erb:47
+msgid "Generate"
+msgstr "Generați"
+
+#: ../../../app/views/pushes/preview.html.erb:56
+#: ../../../app/views/pushes/show.html.erb:41
+#: ../../../app/views/pushes/show.html.erb:75
+msgid "This secret link and all content will be deleted in"
+msgstr "Acest link secret și tot conținutul acestuia vor fi șterse în"
+
+#: ../../../app/views/pushes/preview.html.erb:57
+#: ../../../app/views/pushes/print_preview.html.erb:13
+#: ../../../app/views/pushes/show.html.erb:43
+#: ../../../app/views/pushes/show.html.erb:77
+msgid "day"
+msgid_plural "days"
+msgstr[0] "ziua"
+msgstr[1] "zile"
+msgstr[2] "zile"
+
+#: ../../../app/views/pushes/preview.html.erb:59
+#: ../../../app/views/pushes/print_preview.html.erb:15
+msgid "view"
+msgid_plural "views"
+msgstr[0] "vezi"
+msgstr[1] "vizualizări"
+msgstr[2] "vizualizări"
+
+#: ../../../app/views/pushes/preview.html.erb:65
+msgid "can be"
+msgstr "poate fi"
+
+#: ../../../app/views/pushes/preview.html.erb:65
+#: ../../../app/views/pushes/preview.html.erb:67
+msgid "deleted by viewers."
+msgstr "șterse de către telespectatori."
+
+#: ../../../app/views/pushes/preview.html.erb:67
+msgid "can NOT be"
+msgstr "nU poate fi"
+
+#: ../../../app/views/pushes/preview.html.erb:73
+msgid "It also includes a"
+msgstr "Acesta include, de asemenea, un"
+
+#: ../../../app/views/pushes/preview.html.erb:73
+msgid "1-click preliminary retrieval step"
+msgstr "etapa de recuperare preliminară cu 1 clic"
+
+#: ../../../app/views/pushes/preview.html.erb:77
+msgid "View This Push Now"
+msgstr "Vezi acest Push acum"
+
+#: ../../../app/views/pushes/preview.html.erb:82
+msgid "(will burn a view) or"
+msgstr "(va arde o vedere) sau"
+
+#: ../../../app/views/pushes/preview.html.erb:84
+#: ../../../app/views/pushes/preview.html.erb:86
+#: ../../../app/views/pushes/preview.html.erb:88
+msgid "Push Another"
+msgstr "Împingeți un altul"
+
+#: ../../../app/views/pushes/preview.html.erb:94
+msgid "View Audit Log"
+msgstr "Vizualizați jurnalul de audit"
+
+#: ../../../app/views/pushes/print_preview.html.erb:1
+msgid "Your Secret URL"
+msgstr "URL-ul tău secret"
+
+#: ../../../app/views/pushes/print_preview.html.erb:12
+msgid "This data contained here will expire after"
+msgstr "Aceste date conținute aici vor expira după"
+
+#: ../../../app/views/pushes/show.html.erb:1
+msgid "Your Secret Link"
+msgstr "Legătura ta secretă"
+
+#: ../../../app/views/pushes/show.html.erb:7
+msgid "The following files have been sent to you."
+msgstr "Următoarele fișiere v-au fost trimise."
+
+#: ../../../app/views/pushes/show.html.erb:8
+msgid "Please download and store in a secure area."
+msgstr "Vă rugăm să le descărcați și să le păstrați într-o zonă sigură."
+
+#: ../../../app/views/pushes/show.html.erb:13
+msgid "The following message has been sent to you along with the files below."
+msgstr "Următorul mesaj v-a fost trimis împreună cu fișierele de mai jos."
+
+#: ../../../app/views/pushes/show.html.erb:15
+msgid "The message is blurred out.  Click below to reveal it."
+msgstr "Mesajul este estompat.  Faceți clic mai jos pentru a-l dezvălui."
+
+#: ../../../app/views/pushes/show.html.erb:46
+#: ../../../app/views/pushes/show.html.erb:80
+msgid "0 more views"
+msgstr "0 vizualizări suplimentare"
+
+#: ../../../app/views/pushes/show.html.erb:47
+#: ../../../app/views/pushes/show.html.erb:81
+msgid "(this is the last view)."
+msgstr "(aceasta este ultima vizualizare)."
+
+#: ../../../app/views/pushes/show.html.erb:50
+#: ../../../app/views/pushes/show.html.erb:84
+msgid "more view"
+msgid_plural "more views"
+msgstr[0] "mai multe vizualizări"
+msgstr[1] "mai multe vizualizări"
+msgstr[2] "mai multe vizualizări"
+
+#: ../../../app/views/pushes/show.html.erb:51
+#: ../../../app/views/pushes/show.html.erb:85
+msgid "(whichever occurs first)."
+msgstr "(oricare dintre acestea are loc mai întâi)."
+
+#: ../../../app/views/pushes/show.html.erb:57
+#: ../../../app/views/pushes/show.html.erb:90
+msgid "Delete This Secret Link Now"
+msgstr "Ștergeți acest link secret acum"
+
+#: ../../../app/views/pushes/show.html.erb:109
+msgid "Delete?"
+msgstr "Să șterg?"
+
+#: ../../../app/views/pushes/show.html.erb:113
+msgid "This will expire this secret link and "
+msgstr "Acest lucru va expira această legătură secretă și "
+
+#: ../../../app/views/pushes/show.html.erb:114
+msgid "delete all related content from the database forever"
+msgstr "șterge pentru totdeauna tot conținutul aferent din baza de date"
+
+#: ../../../app/views/pushes/show_expired.html.erb:1
+msgid "Your Secret Link Has Expired"
+msgstr "Legătura ta secretă a expirat"
+
+#: ../../../app/views/pushes/show_expired.html.erb:6
+msgid "We apologize but this secret link has expired."
+msgstr "Ne cerem scuze, dar acest link secret a expirat."
+
+#: ../../../app/views/pushes/show_expired.html.erb:8
+msgid ""
+"If needed, please contact the person or organization who gave you this secret "
+"URL."
+msgstr ""
+"Dacă este necesar, vă rugăm să contactați persoana sau organizația care v-a fu"
+"rnizat acest URL secret."
+
+#: ../../../app/views/shared/_cookie_consent.html.erb:6
+msgid ""
+"Browser cookies help make this tool work. By using it, you agree the use of th"
+"ese cookies."
+msgstr ""
+"Cookie-urile din browser ajută la funcționarea acestui instrument. Utilizându-"
+"l, sunteți de acord cu utilizarea acestor cookie-uri."
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:3
+#: ../../../app/views/shared/_header.html.erb:30
+msgid "Dashboard"
+msgstr "Tabloul de bord"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:9
+msgid "All"
+msgstr "Toate"
+
+#: ../../../app/views/shared/_dashboard_header.html.erb:13
+msgid "New"
+msgstr "Nou"
+
+#: ../../../app/views/shared/_footer.html.erb:4
+msgid "Peter"
+msgstr "Peter"
+
+#: ../../../app/views/shared/_footer.html.erb:22
+msgid "Front Page"
+msgstr "Prima pagină"
+
+#: ../../../app/views/shared/_footer.html.erb:30
+msgid "Docker Containers"
+msgstr "Containere Docker"
+
+#: ../../../app/views/shared/_footer.html.erb:34
+msgid "FAQ"
+msgstr "ÎNTREBĂRI FRECVENTE"
+
+#: ../../../app/views/shared/_footer.html.erb:35
+msgid "JSON API"
+msgstr "API JSON"
+
+#: ../../../app/views/shared/_footer.html.erb:36
+msgid "Key Generator"
+msgstr "Generator de chei"
+
+#: ../../../app/views/shared/_footer.html.erb:39
+msgid "Source Code"
+msgstr "Codul sursă"
+
+#: ../../../app/views/shared/_footer.html.erb:43
+msgid "Tools"
+msgstr "Unelte"
+
+#: ../../../app/views/shared/_footer.html.erb:51
+msgid "Overview"
+msgstr "Prezentare generală"
+
+#: ../../../app/views/shared/_footer.html.erb:52
+msgid "Documentation"
+msgstr "Documentație"
+
+#: ../../../app/views/shared/_header.html.erb:37
+msgid "Account"
+msgstr "Cont"
+
+#: ../../../app/views/shared/_header.html.erb:42
+msgid "Admin Dashboard"
+msgstr "Tablou de bord administrativ"
+
+#: ../../../app/views/shared/_header.html.erb:46
+msgid "Edit Login Details"
+msgstr "Editați detaliile de conectare"
+
+#: ../../../app/views/shared/_header.html.erb:52
+msgid "Log Out"
+msgstr "Deconectați-vă"
+
+#: ../../../app/views/shared/_header.html.erb:58
+msgid "Log In"
+msgstr "Autentificare"
+
+#: ../../../app/views/shared/_header.html.erb:62
+msgid "Sign Up"
+msgstr "Înscrieți-vă"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:5
+msgid "Configure Password Generation"
+msgstr "Configurați generarea parolei"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:11
+msgid "Test Area"
+msgstr "Zona de testare"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:16
+msgid "Number of Syllables"
+msgstr "Numărul de silabe"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:20
+msgid "Minimum Syllable Length"
+msgstr "Lungimea minimă a silabei"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:24
+msgid "Maximum Syllable Length"
+msgstr "Lungimea maximă a silabelor"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:31
+msgid "Include numbers"
+msgstr "Includeți numere"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:35
+msgid "Use Titlecase"
+msgstr "Utilizați Titlecase"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:39
+msgid "Use Separators"
+msgstr "Utilizați separatori"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:43
+msgid "Test"
+msgstr "Test"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:50
+msgid "Separators"
+msgstr "Separatoare"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:56
+msgid "Vowels"
+msgstr "Vocale"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:62
+msgid "Consonants"
+msgstr "Consoane"
+
+#: ../../../app/views/shared/_pw_generator_modal.html.erb:71
+msgid "Reset to Defaults"
+msgstr "Resetare la valorile implicite"
+
+#: ../../../app/views/shared/_topnav.html.erb:4
+msgid "Passwords"
+msgstr "Parole"
+
+#: ../../../app/views/shared/_topnav.html.erb:8
+msgid "Files"
+msgstr "Fișiere"
+
+#: ../../../app/views/shared/_topnav.html.erb:13
+msgid "URLs"
+msgstr "URL-uri"
+
+#: ../../../app/views/shared/_topnav.html.erb:18
+msgid "QR Codes ᴮᴱᵀᴬ"
+msgstr "Coduri QR ᴮᴱᵀᴬ"

@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-3 mb-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">📊 <%= _('Dashboard') %></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="btn-group">
+        <%= link_to _('All'), pushes_path, class: "btn btn-primary #{ 'active' if @filter.blank? }" %>
+        <%= link_to _('Active'), pushes_path(filter: :active), class: "btn btn-primary #{ 'active' if @filter == "active" }" %>
+        <%= link_to _('Expired'), pushes_path(filter: :expired), class: "btn btn-primary #{ 'active' if @filter == "expired" }" %>
+      </div>
+      <%= link_to _('New'), new_push_path, class: "btn btn-success ms-3" %>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="<%= I18n.locale %>" data-controller="theme">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <title><%= content_for?(:html_title) ? yield(:html_title) : Settings.brand.title %></title>
+
+  <meta content="<%= _('Password Pusher is an application to securely send passwords over the web. Links to passwords expire after a certain number of views and/or time has passed.') %>" name='description'>
+  <meta content='width=device-width, initial-scale=1' name='viewport'>
+
+  <%= render partial: "shared/layout_icons", cached: true %>
+
+  <%= render partial: "application/ga", cached: true %>
+  <%= render partial: "application/plausible", cached: true %>
+
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag if defined?(csp_meta_tag) %>
+
+  <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  <%= tag.meta name: 'turbo-drive-enabled', content: ENV.key?('TURBO_DRIVE_ENABLED') ? ENV['TURBO_DRIVE_ENABLED'].to_s.downcase : true %>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<%= render partial: 'shared/header' %>
+
+<div class="container">
+  <%= render partial: 'shared/alerts' %>
+  <%= yield %>
+</div>
+
+<%= render partial: 'shared/footer', cached: true %>
+<%= render partial: 'shared/cookie_consent', cached: true %>
+
+</body>
+</html>
